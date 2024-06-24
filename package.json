@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nitropack": "latest",
+    "pdfjs-dist": "4.3.136",
+    "unpdf": "0.11.0"
+  }
+}
